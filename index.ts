@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import express, { Request, Response } from 'express';
 import methodOverride from 'method-override';
 import mongoose from 'mongoose';
-import placesController from './controllers/places.ts';
+import placesController from './controllers/places';
 
 dotenv.config();
 
